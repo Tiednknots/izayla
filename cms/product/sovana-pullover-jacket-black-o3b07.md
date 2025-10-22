@@ -25,6 +25,8 @@ f_shippable: true
 f_tax-category: standard-taxable
 f_ec-product-type: Physical
 f_model-wearing-size: m
+f_additional-colors:
+  - cms/product/sovana-pullover-jacket-beige.md
 f_video-url: >-
   https://cdn.prod.website-files.com/56e763b906aad4f413f7431a%2F6880dd9756e56f5e8688794b_20250723_0528_Elegant%20Office%20Attire_simple_compose_01k0vm2qgkea593wht9gmrmh68-transcode.mp4
 f_show-video: false
@@ -36,6 +38,8 @@ f_additional-details: >-
   sides allow for subtle shape adjustment, while the relaxed fit makes it easy
   to style for both elevated off-duty and polished casual looks.
 f_size-fit-2: "(Size Medium):  \n\_\_\_\_•\_\_\_\_Shoulder length: 32”  \n\_\_\_\_•\_\_\_\_Underarm length: 21”  \n\_\_\_\_•\_\_\_\_Length from neck to hem: 27”  \n\_\_\_\_•\_\_\_\_Width across chest: 20”  \n\_\_\_\_•\_\_\_\_Neck length: 21”  \n\_\_\_\_•\_\_\_\_Oversized fit; size down for a more tailored look or size up for added volume  \n\_\_\_\_•\_\_\_\_13” front zipper closure  \n\_\_\_\_•\_\_\_\_Bungee cords at the sides for adjustable styling  \n\_\_\_\_•\_\_\_\_Chevron panel detailing at front  \n\_\_\_\_•\_\_\_\_Nonfunctional flap detail at chest for modern structure  \n\_\_\_\_•\_\_\_\_Model is 5’9” with a 33” bust, wearing a size Medium  \n\_\_\_\_•\_\_\_\_Fabric: 65% Nylon, 30% Rayon, 5% Spandex  \n\_\_\_\_•\_\_\_\_Care: Machine wash cold and air dry, or dry clean"
+f_color-options-2:
+  - cms/product/sovana-pullover-jacket-beige.md
 f_fabric-image: ad
 f_fabric: 65% Nylon, 30% Rayon, 5% Spandex
 f_material-details: This is text.
@@ -54,10 +58,6 @@ created-on: '2025-09-12T20:59:35.575Z'
 updated-on: '2025-09-13T20:22:24.778Z'
 published-on: '2025-09-13T20:22:24.778Z'
 f__noSearch: false
-f_color-options-2:
-  - cms/product/sovana-pullover-jacket-beige.md
-f_additional-colors:
-  - cms/product/sovana-pullover-jacket-beige.md
 variations:
   - variation-properties:
       size: s

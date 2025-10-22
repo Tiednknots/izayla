@@ -26,6 +26,8 @@ f_shippable: true
 f_tax-category: standard-taxable
 f_ec-product-type: Physical
 f_model-wearing-size: m
+f_additional-colors:
+  - cms/product/sovana-pullover-jacket-black-o3b07.md
 f_video-url: >-
   https://cdn.prod.website-files.com/56e763b906aad4f413f7431a%2F6880dd9756e56f5e8688794b_20250723_0528_Elegant%20Office%20Attire_simple_compose_01k0vm2qgkea593wht9gmrmh68-transcode.mp4
 f_show-video: false
@@ -55,8 +57,6 @@ created-on: '2025-07-23T11:27:54.184Z'
 updated-on: '2025-09-13T20:24:36.883Z'
 published-on: '2025-09-13T20:24:36.883Z'
 f__noSearch: false
-f_additional-colors:
-  - cms/product/sovana-pullover-jacket-black-o3b07.md
 variations:
   - variation-properties:
       size: xl

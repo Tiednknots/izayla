@@ -27,6 +27,9 @@ f_shippable: true
 f_tax-category: standard-taxable
 f_ec-product-type: Physical
 f_model-wearing-size: s
+f_additional-colors:
+  - cms/product/saline-blouse-beige.md
+  - cms/product/saline-blouse-chocolate.md
 f_video-url: >-
   https://cdn.prod.website-files.com/56e763b906aad4f413f7431a%2F6880dda2ebf9b5aa8c14a0cb_20250723_0509_Sophisticated%20Office%20Style_simple_compose_01k0vk13s9f41sv4veqrx9y5hy-transcode.mp4
 f_show-video: false
@@ -45,22 +48,6 @@ f_additional-details: >-
   pair seamlessly with high-rise trousers or denim.
 f_size-fit-2: "• \_ \_Fabrication: 100% Cotton\n\n• \_ \_Construction: French seams \_\n\n• \_ \_Fit: Oversized; size down for a closer fit \_ \_\n\n• \_ \_Length: 22.5” \_ \_\n\n• \_ \_Sleeve length: 34” \_ \_\n\n• \_ \_Cuff: 8.5” long, 11” wide \_ \_\n\n• \_ \_Waist tie: 73” long, 3.5” wide\n\n‍\n\nModel is 5’9” with a 33” bust, wearing size Small."
 f_fabric: 100% Cotton
-f_ready-2: false
-f_hide-best-matched-with: false
-f_hide-material-section: false
-title: Saline Blouse
-slug: saline-blouse-white
-created-on: '2025-07-23T11:31:10.406Z'
-updated-on: '2025-09-30T20:03:05.829Z'
-published-on: '2025-09-30T20:03:05.829Z'
-f__noSearch: false
-f_additional-colors:
-  - cms/product/saline-blouse-beige.md
-  - cms/product/saline-blouse-chocolate.md
-f_material-closeup:
-  url: >-
-    https://cdn.prod.website-files.com/5cda63f9c6b14f572f27a429/68dc376c88f9686f7efb337a_whit-fab-blou.jpg
-  alt: null
 f_material-details: >-
   Crafted from pure cotton of exceptional weight and handfeel, the Saline Blouse
   offers both structure and breathability. This natural fiber has been selected
@@ -78,6 +65,19 @@ f_material-details: >-
 
 
   ‍
+f_material-closeup:
+  url: >-
+    https://cdn.prod.website-files.com/5cda63f9c6b14f572f27a429/68dc376c88f9686f7efb337a_whit-fab-blou.jpg
+  alt: null
+f_ready-2: false
+f_hide-best-matched-with: false
+f_hide-material-section: false
+title: Saline Blouse
+slug: saline-blouse-white
+created-on: '2025-07-23T11:31:10.406Z'
+updated-on: '2025-10-22T00:46:10.903Z'
+published-on: '2025-10-22T01:11:16.091Z'
+f__noSearch: false
 variations:
   - variation-properties:
       size: 1x

@@ -90,24 +90,24 @@
           {%- unless setItems.length == 0 -%}<div role="list" class="collection-list-71 w-dyn-items">
             {%- for setItem in setItems -%}<div role="listitem" class="collection-item-80 w-dyn-item">
               <a href="{{ links.23 }}" class="lightbox-link-2 w-inline-block w-lightbox"><img alt="{{ setItem.alt }}" src="{{ setItem.url }}" class="image-165">
-                </a><div class="code-embed-4 w-embed"><a href="{{ links.23 }}" class="lightbox-link-2 w-inline-block w-lightbox"><!--  Mobile Gallery  -->
-                  </a><div data-gallery="mobile" class="mgal" role="region" aria-label="Product images"><a href="{{ links.23 }}" class="lightbox-link-2 w-inline-block w-lightbox">
-                    </a><div class="mgal-track" tabindex="0" aria-live="polite"><a href="{{ links.23 }}" class="lightbox-link-2 w-inline-block w-lightbox">
-                      <!--  Bind this Collection Item to Product Images and keep the Lightbox Link wrapper  -->
-                      <!--  Example structure inside your Collection Item:  -->
-                      </a><a class="w-lightbox mgal-item" href="{{ links.23 }}">
-                        <img class="mgal-img" src="{{mainProductImage}}" alt="{{productName}}">
-                      </a>
-                      <!--  Webflow will repeat this per image  -->
-                    </div>
-                    <!--  Indicator bar will be populated by JS  -->
-                    <div class="mgal-indicator" aria-hidden="true">
-                      <div class="mgal-indicator-bg"></div>
-                      <div class="mgal-indicator-fill"></div>
-                      <div class="mgal-indicator-segs"></div>
-                    </div>
-                  </div>
-                </div>
+                </a><div class="code-embed-4 w-embed"><!-- Mobile Gallery -->
+<div data-gallery="mobile" class="mgal" role="region" aria-label="Product images">
+  <div class="mgal-track" tabindex="0" aria-live="polite">
+    <!-- Bind this Collection Item to Product Images and keep the Lightbox Link wrapper -->
+    <!-- Example structure inside your Collection Item: -->
+    <a class="w-lightbox mgal-item" href="{{ links.23 }}">
+      <img class="mgal-img" src="{{mainProductImage}}" alt="{{productName}}">
+    </a>
+    <!-- Webflow will repeat this per image -->
+  </div>
+
+  <!-- Indicator bar will be populated by JS -->
+  <div class="mgal-indicator" aria-hidden="true">
+    <div class="mgal-indicator-bg"></div>
+    <div class="mgal-indicator-fill"></div>
+    <div class="mgal-indicator-segs"></div>
+  </div>
+</div></div>
                 <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{{ setItem.url }}","caption":""}],"group":"product"}</script>
               
             </div>{%- endfor -%}
@@ -119,24 +119,24 @@
           <div role="list" class="collection-list-71 w-dyn-items">
             <div role="listitem" class="collection-item-80 w-dyn-item">
               <a href="{# links.23 #}" class="lightbox-link-2 w-inline-block w-lightbox"><img alt="{# setItem.alt #}" src="{# setItem.url #}" class="image-165">
-                </a><div class="code-embed-4 w-embed"><a href="{# links.23 #}" class="lightbox-link-2 w-inline-block w-lightbox"><!--  Mobile Gallery  -->
-                  </a><div data-gallery="mobile" class="mgal" role="region" aria-label="Product images"><a href="{# links.23 #}" class="lightbox-link-2 w-inline-block w-lightbox">
-                    </a><div class="mgal-track" tabindex="0" aria-live="polite"><a href="{# links.23 #}" class="lightbox-link-2 w-inline-block w-lightbox">
-                      <!--  Bind this Collection Item to Product Images and keep the Lightbox Link wrapper  -->
-                      <!--  Example structure inside your Collection Item:  -->
-                      </a><a class="w-lightbox mgal-item" href="{# links.23 #}">
-                        <img class="mgal-img" src="{#mainProductImage#}" alt="{#productName#}">
-                      </a>
-                      <!--  Webflow will repeat this per image  -->
-                    </div>
-                    <!--  Indicator bar will be populated by JS  -->
-                    <div class="mgal-indicator" aria-hidden="true">
-                      <div class="mgal-indicator-bg"></div>
-                      <div class="mgal-indicator-fill"></div>
-                      <div class="mgal-indicator-segs"></div>
-                    </div>
-                  </div>
-                </div>
+                </a><div class="code-embed-4 w-embed"><!-- Mobile Gallery -->
+<div data-gallery="mobile" class="mgal" role="region" aria-label="Product images">
+  <div class="mgal-track" tabindex="0" aria-live="polite">
+    <!-- Bind this Collection Item to Product Images and keep the Lightbox Link wrapper -->
+    <!-- Example structure inside your Collection Item: -->
+    <a class="w-lightbox mgal-item" href="{# links.23 #}">
+      <img class="mgal-img" src="{#mainProductImage#}" alt="{#productName#}">
+    </a>
+    <!-- Webflow will repeat this per image -->
+  </div>
+
+  <!-- Indicator bar will be populated by JS -->
+  <div class="mgal-indicator" aria-hidden="true">
+    <div class="mgal-indicator-bg"></div>
+    <div class="mgal-indicator-fill"></div>
+    <div class="mgal-indicator-segs"></div>
+  </div>
+</div></div>
                 <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{# setItem.url #}","caption":""}],"group":"product"}</script>
               
             </div>
@@ -148,7 +148,7 @@
         <div class="model mobile">
           <div class="model-cover">
             <div class="text-block-783">{{ texts.46628595 }}</div>
-            <div class="text-block-782"></div>
+            <div class="text-block-782">{{ f_model-wearing-size }}</div>
           </div>
         </div>
       </div>
@@ -237,25 +237,25 @@
             <div class="div-block-1146 sda">
               <div class="text-block-778">{{ texts.-1a353919 }}</div>
               <div class="div-block-1149">
-                <div class="collection-list-wrapper-92 w-dyn-list">
-                  <div role="list" class="collection-list-84 w-dyn-items">
-                    <div role="listitem" class="collection-item-96 w-dyn-item">
-                      <a href="{{ links.23 }}" class="link-block-111 w-inline-block"><img loading="lazy" src="{{ images.0.url }}" alt="{{ images.0.alt | escape }}" class="image-208"></a>
-                    </div>
-                  </div>
-                  <div class="w-dyn-empty">
+                {%- assign collection = collections.product | filter: "variations,eq,DYN_CONTEXT_FIELD:variations", "ALL", page.inputPath | sort: "-created-on" -%}<div class="collection-list-wrapper-92 w-dyn-list">
+                  {%- unless collection.length == 0 -%}<div role="list" class="collection-list-84 w-dyn-items">
+                    {%- for item in collection -%}<div role="listitem" class="collection-item-96 w-dyn-item">
+                      <a href="{{ item.url }}" class="link-block-111 w-inline-block">{%- assign currentVariation = item.data.variations | getDefaultSKU -%}<img loading="lazy" src="{{ currentVariation.f_main-image.url }}" alt="{{ currentVariation.f_main-image.alt }}" class="image-208"></a>
+                    </div>{%- endfor -%}
+                  </div>{%- endunless -%}
+                  {%- if collection.length == 0 -%}<div class="w-dyn-empty">
                     <div>{{ texts.3d503d2b }}</div>
-                  </div>
+                  </div>{%- endif -%}
                 </div>
-                <div class="collection-list-wrapper-92 w-dyn-list">
-                  <div role="list" class="collection-list-84 w-dyn-items">
-                    <div role="listitem" class="collection-item-96 w-dyn-item">
-                      <a href="{{ links.23 }}" class="link-block-111 w-inline-block"><img loading="lazy" src="{{ images.0.url }}" alt="{{ images.0.alt | escape }}" class="image-208"></a>
-                    </div>
-                  </div>
-                  <div class="w-dyn-empty">
+                {%- assign productOfProduct = f_additional-colors | resolveMultiReferences | sort: "-created-on" -%}<div class="collection-list-wrapper-92 w-dyn-list">
+                  {%- unless productOfProduct.length == 0 -%}<div role="list" class="collection-list-84 w-dyn-items">
+                    {%- for item in productOfProduct -%}<div role="listitem" class="collection-item-96 w-dyn-item">
+                      <a href="{{ item.url }}" class="link-block-111 w-inline-block">{%- assign currentVariation = item.data.variations | getDefaultSKU -%}<img loading="lazy" src="{{ currentVariation.f_main-image.url }}" alt="{{ currentVariation.f_main-image.alt }}" class="image-208"></a>
+                    </div>{%- endfor -%}
+                  </div>{%- endunless -%}
+                  {%- if productOfProduct.length == 0 -%}<div class="w-dyn-empty">
                     <div>{{ texts.3d503d2b }}</div>
-                  </div>
+                  </div>{%- endif -%}
                 </div>
               </div>
             </div>
@@ -278,9 +278,19 @@
             </div>
           </div>{%- endif -%}
           <div class="add-to-cart-8">
-            <form data-node-type="commerce-add-to-cart-form" class="w-commerce-commerceaddtocartform default-state-12" action="/cart/add" method="POST" data-properties="{{ variation-properties | json | escape }}">
-              <div class="div-block-1145"><input type="number" pattern="^[0-9]+$" inputmode="numeric" id="quantity-611b0c04c5e2942e86cc106f64ef4343" name="quantity" min="1" class="w-commerce-commerceaddtocartquantityinput quantity-3" value="1"><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button-5" value="Add to Bag"></div>
-              <a data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton buy-now-button-4" href="{{ links.-eb5dfa6 }}">{{ texts.71bb9a1c }}</a>
+            {%- assign currentVariation = variations | getDefaultSKU -%}<form position-bind-position="prepend" data-node-type="commerce-add-to-cart-form" class="w-commerce-commerceaddtocartform default-state-12" data-sku-id="{{ currentVariation.slug }}" action="/cart/add" method="POST" data-properties="{{ variation-properties | json | escape }}">{%- for option in variation-properties -%}<fieldset data-node-type="add-to-cart-option" class="option-16"><select data-node-type="add-to-cart-option-select" class="w-select" style="display: none;" name="{{ option.slug }}"><option value>Choose a {{ option.name }}</option>
+{% if currentVariation.default %}
+{% for value in option.values %}
+<option value="{{ value.slug }}" {% if currentVariation["variation-properties"][option.slug] == value.slug %}selected{% endif %}>{{ value.name }}</option>
+{% endfor %}
+{% else %}
+{% for value in option.values %}
+<option value="{{ value.slug }}">{{ value.name }}</option>
+{% endfor %}
+{% endif %}
+</select><div data-node-type="add-to-cart-option-pill-group" class="button-group-10 hg w-commerce-commerceaddtocartoptionpillgroup" aria-label="{{ option.slug }}">{%- for value in option.values -%}<div data-node-type="add-to-cart-option-pill" class="button-20 w-commerce-commerceaddtocartoptionpill" data-option-name="{{ value.slug }}">{{ value.name }}</div>{%- endfor -%}</div></fieldset>{%- endfor -%}
+              <div position-id="9dfd7d52-0a26-152c-333c-e7c737332cfb" class="div-block-1145">{%- unless f_ec-product-type == "Membership" -%}<input type="number" pattern="^[0-9]+$" inputmode="numeric" id="quantity-611b0c04c5e2942e86cc106f64ef4343" name="quantity" min="1" class="w-commerce-commerceaddtocartquantityinput quantity-3" value="1">{%- endunless -%}<input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button-5" value="Add to Bag"></div>
+              <a position-id="9dfd7d52-0a26-152c-333c-e7c737332cfe" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton buy-now-button-4" href="{{ links.-eb5dfa6 }}">{{ texts.71bb9a1c }}</a>
             {%- variations variations -%}</form>
             <div style="display:none" class="w-commerce-commerceaddtocartoutofstock" tabindex="0">
               <div>{{ texts.7aaa2dac }}</div>
@@ -702,7 +712,7 @@
                     <div class="div-block-861 mobile">
                       <div class="matched-image-container">
                         <h1 class="product-title-main matched second">{{ item.data.title }}</h1>
-                        <p class="accordion-bottom-text other"></p>
+                        <p class="accordion-bottom-text other">{{ item.data.f_description }}</p>
                         <div class="matched-image-holder">{%- assign currentVariation = item.data.variations | getDefaultSKU -%}<img loading="lazy" width="142" src="{{ currentVariation.f_main-image.url }}" alt="{{ currentVariation.f_main-image.alt }}" class="image-125"></div>
                       </div>
                       <div class="div-block-1154">
@@ -952,7 +962,7 @@
             <div class="model">
               <div class="model-cover">
                 <div class="text-block-783">{{ texts.46628595 }}</div>
-                <div class="text-block-782"></div>
+                <div class="text-block-782">{{ f_model-wearing-size }}</div>
               </div>
             </div>
             <div class="gallery-scroll">
@@ -960,14 +970,14 @@
                 {%- assign currentVariation = variations | getDefaultSKU -%}{%- assign setItems = currentVariation.f_more-images -%}<div data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b804" class="collection-list-wrapper-52 w-dyn-list" data-commerce-type="more-images">
                   {%- unless setItems.length == 0 -%}<div role="list" class="collection-list-41 w-dyn-items">
                     {%- for setItem in setItems -%}<div data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b806" role="listitem" class="collection-item-60 w-dyn-item">
-                      <div class="div-block-971"><img data-variant="VARIANT_ID_HERE" class="shot" src="{{ images.0.url }}" alt="{{ images.0.alt | escape }}" data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b807" id="product-image" loading="eager" data-default="1"></div>
+                      <div class="div-block-971"><img data-variant="VARIANT_ID_HERE" class="shot" src="{{ setItem.url }}" alt="{{ setItem.alt }}" data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b807" id="product-image" loading="eager" data-default="1"></div>
                     </div>{%- endfor -%}
                   </div>{%- endunless -%}
                   {%- if setItems.length == 0 -%}<div class="empty-state-2 w-dyn-empty"><img alt="{{ setItem.alt }}" loading="lazy" src="{{ setItem.url }}" class="image-153"></div>{%- endif -%}
                 <template><div data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b804" class="collection-list-wrapper-52 w-dyn-list" udesly-repeater="true" data-commerce-type="more-images">
                   <div role="list" class="collection-list-41 w-dyn-items">
                     <div data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b806" role="listitem" class="collection-item-60 w-dyn-item">
-                      <div class="div-block-971"><img data-variant="VARIANT_ID_HERE" class="shot" src="{# images.0.url #}" alt="{# images.0.alt | escape #}" data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b807" id="product-image" loading="eager" data-default="1"></div>
+                      <div class="div-block-971"><img data-variant="VARIANT_ID_HERE" class="shot" src="{# setItem.url #}" alt="{# setItem.alt #}" data-w-id="d70a02ff-04bf-a2c5-c336-1dd29b43b807" id="product-image" loading="eager" data-default="1"></div>
                     </div>
                   </div>
                   <div class="empty-state-2 w-dyn-empty"><img alt="{# setItem.alt #}" loading="lazy" src="{# setItem.url #}" class="image-153"></div>
@@ -1007,25 +1017,25 @@
                       <div class="div-block-1146 sda">
                         <div class="text-block-778">{{ texts.-1a353919 }}</div>
                         <div class="div-block-1149">
-                          <div class="collection-list-wrapper-92 w-dyn-list">
-                            <div role="list" class="collection-list-84 w-dyn-items">
-                              <div role="listitem" class="collection-item-96 w-dyn-item">
-                                <a href="{{ links.23 }}" class="link-block-111 w-inline-block"><img loading="lazy" src="{{ images.0.url }}" alt="{{ images.0.alt | escape }}" class="image-208"></a>
-                              </div>
-                            </div>
-                            <div class="w-dyn-empty">
+                          {%- assign collection = collections.product | filter: "variations,eq,DYN_CONTEXT_FIELD:variations", "ALL", page.inputPath | sort: "-created-on" -%}<div class="collection-list-wrapper-92 w-dyn-list">
+                            {%- unless collection.length == 0 -%}<div role="list" class="collection-list-84 w-dyn-items">
+                              {%- for item in collection -%}<div role="listitem" class="collection-item-96 w-dyn-item">
+                                <a href="{{ item.url }}" class="link-block-111 w-inline-block">{%- assign currentVariation = item.data.variations | getDefaultSKU -%}<img loading="lazy" src="{{ currentVariation.f_main-image.url }}" alt="{{ currentVariation.f_main-image.alt }}" class="image-208"></a>
+                              </div>{%- endfor -%}
+                            </div>{%- endunless -%}
+                            {%- if collection.length == 0 -%}<div class="w-dyn-empty">
                               <div>{{ texts.3d503d2b }}</div>
-                            </div>
+                            </div>{%- endif -%}
                           </div>
-                          <div class="collection-list-wrapper-92 w-dyn-list">
-                            <div role="list" class="collection-list-84 w-dyn-items">
-                              <div role="listitem" class="collection-item-96 w-dyn-item">
-                                <a href="{{ links.23 }}" class="link-block-111 w-inline-block"><img loading="lazy" src="{{ images.0.url }}" alt="{{ images.0.alt | escape }}" class="image-208"></a>
-                              </div>
-                            </div>
-                            <div class="w-dyn-empty">
+                          {%- assign productOfProduct = f_additional-colors | resolveMultiReferences | sort: "-created-on" -%}<div class="collection-list-wrapper-92 w-dyn-list">
+                            {%- unless productOfProduct.length == 0 -%}<div role="list" class="collection-list-84 w-dyn-items">
+                              {%- for item in productOfProduct -%}<div role="listitem" class="collection-item-96 w-dyn-item">
+                                <a href="{{ item.url }}" class="link-block-111 w-inline-block">{%- assign currentVariation = item.data.variations | getDefaultSKU -%}<img loading="lazy" src="{{ currentVariation.f_main-image.url }}" alt="{{ currentVariation.f_main-image.alt }}" class="image-208"></a>
+                              </div>{%- endfor -%}
+                            </div>{%- endunless -%}
+                            {%- if productOfProduct.length == 0 -%}<div class="w-dyn-empty">
                               <div>{{ texts.3d503d2b }}</div>
-                            </div>
+                            </div>{%- endif -%}
                           </div>
                         </div>
                       </div>
@@ -1048,9 +1058,19 @@
                       </div>
                     </div>{%- endif -%}
                     <div class="add-to-cart-8">
-                      <form data-node-type="commerce-add-to-cart-form" class="w-commerce-commerceaddtocartform default-state-12" action="/cart/add" method="POST" data-properties="{{ variation-properties | json | escape }}">
-                        <div class="div-block-1145"><input type="number" pattern="^[0-9]+$" inputmode="numeric" id="quantity-611b0c04c5e2942e86cc106f64ef4343" name="quantity" min="1" class="w-commerce-commerceaddtocartquantityinput quantity-3" value="1"><input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button-5" value="Add to Bag"></div>
-                        <a data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton buy-now-button-4" href="{{ links.-eb5dfa6 }}">{{ texts.71bb9a1c }}</a>
+                      {%- assign currentVariation = variations | getDefaultSKU -%}<form position-bind-position="prepend" data-node-type="commerce-add-to-cart-form" class="w-commerce-commerceaddtocartform default-state-12" data-sku-id="{{ currentVariation.slug }}" action="/cart/add" method="POST" data-properties="{{ variation-properties | json | escape }}">{%- for option in variation-properties -%}<fieldset data-node-type="add-to-cart-option" class="option-16"><select data-node-type="add-to-cart-option-select" class="w-select" style="display: none;" name="{{ option.slug }}"><option value>Choose a {{ option.name }}</option>
+{% if currentVariation.default %}
+{% for value in option.values %}
+<option value="{{ value.slug }}" {% if currentVariation["variation-properties"][option.slug] == value.slug %}selected{% endif %}>{{ value.name }}</option>
+{% endfor %}
+{% else %}
+{% for value in option.values %}
+<option value="{{ value.slug }}">{{ value.name }}</option>
+{% endfor %}
+{% endif %}
+</select><div data-node-type="add-to-cart-option-pill-group" class="button-group-10 ggjh w-commerce-commerceaddtocartoptionpillgroup" aria-label="{{ option.slug }}">{%- for value in option.values -%}<div data-node-type="add-to-cart-option-pill" class="button-20 w-commerce-commerceaddtocartoptionpill" data-option-name="{{ value.slug }}">{{ value.name }}</div>{%- endfor -%}</div></fieldset>{%- endfor -%}
+                        <div position-id="4132311c-2b1a-6fc5-2956-ca4e35aa4b79" class="div-block-1145">{%- unless f_ec-product-type == "Membership" -%}<input type="number" pattern="^[0-9]+$" inputmode="numeric" id="quantity-611b0c04c5e2942e86cc106f64ef4343" name="quantity" min="1" class="w-commerce-commerceaddtocartquantityinput quantity-3" value="1">{%- endunless -%}<input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button-5" value="Add to Bag"></div>
+                        <a position-id="e1ce8772-01d8-8966-ea62-05df510d69c8" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton buy-now-button-4" href="{{ links.-eb5dfa6 }}">{{ texts.71bb9a1c }}</a>
                       {%- variations variations -%}</form>
                       <div style="display:none" class="w-commerce-commerceaddtocartoutofstock" tabindex="0">
                         <div>{{ texts.7aaa2dac }}</div>

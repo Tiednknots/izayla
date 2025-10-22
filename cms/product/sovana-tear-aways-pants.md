@@ -37,6 +37,8 @@ f_shippable: true
 f_tax-category: standard-taxable
 f_ec-product-type: Physical
 f_model-wearing-size: s
+f_additional-colors:
+  - cms/product/sovana-tear-aways-pants-black.md
 f_video-url: >-
   https://cdn.prod.website-files.com/56e763b906aad4f413f7431a%2F6880ddac66330d09a46f683e_20250723_0505_Retro%20Office%20Elegance_simple_compose_01k0vjsn0af7jtq1vptfx78wbw-transcode.mp4
 f_show-video: false
@@ -84,6 +86,8 @@ f_size-fit-2: |-
   *   Or dry clean
 
   ‍
+f_color-options-2:
+  - cms/product/sovana-tear-aways-pants-black.md
 f_fabric: 65% Nylon / 30% Rayon / 5% Polyester
 f_ready-2: false
 f_best-matched-with-2:
@@ -96,10 +100,6 @@ created-on: '2025-07-23T11:32:55.600Z'
 updated-on: '2025-09-13T20:29:47.179Z'
 published-on: '2025-09-13T20:29:47.179Z'
 f__noSearch: false
-f_color-options-2:
-  - cms/product/sovana-tear-aways-pants-black.md
-f_additional-colors:
-  - cms/product/sovana-tear-aways-pants-black.md
 variations:
   - variation-properties:
       size: xl

@@ -97,6 +97,153 @@ collections:
     editor: *ref_0
     folder: cms/pages/izayla-women-in-business
     fields: *ref_1
+  - name: items
+    label: Items
+    folder: cms/items
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Product description
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_product-handle
+        label: Product handle
+        widget: string
+        required: false
+      - hint: ''
+        name: f_main-image
+        label: Main image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_more-images
+        label: More images
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_price
+        label: Price
+        widget: string
+        required: false
+      - hint: ''
+        name: f_model-wearing
+        label: Model Wearing
+        widget: string
+        required: false
+      - hint: ''
+        name: f_color
+        label: Color
+        widget: string
+        required: false
+      - hint: ''
+        name: f_additional-details
+        label: Additional Details
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_size-fit
+        label: Size & Fit
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_material
+        label: Material
+        widget: string
+        required: false
+      - hint: ''
+        name: f_material-detail
+        label: Material Detail
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_material-image
+        label: Material Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_main-focus
+        label: Main Focus
+        widget: boolean
+        required: false
+        default: false
+      - hint: ''
+        name: f__noSearch
+        label: No Search
+        widget: boolean
+        required: false
+        default: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: items
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[items].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_2
   - name: looks_good_with
     label: Looks good withs
     folder: cms/looks-good-with
@@ -172,6 +319,33 @@ collections:
       - hint: ''
         name: f_link-to-product
         label: Link to product
+        widget: string
+        required: false
+      - hint: ''
+        name: f_product-handle
+        label: Product handle
+        widget: string
+        required: false
+      - hint: ''
+        name: f_more-images
+        label: More images
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_price
+        label: Price
         widget: string
         required: false
       - hint: ''
@@ -4378,6 +4552,150 @@ collections:
             label: Text
             name: 22fbf6aa
             widget: string
+          - hint: 'Original text: x, key: 78'
+            label: Text
+            name: '78'
+            widget: string
+          - hint: 'Original text: xs, key: efb'
+            label: Text
+            name: efb
+            widget: string
+          - hint: 'Original text: s, key: 73'
+            label: Text
+            name: '73'
+            widget: string
+          - hint: 'Original text: m, key: 6d'
+            label: Text
+            name: 6d
+            widget: string
+          - hint: 'Original text: l, key: 6c'
+            label: Text
+            name: 6c
+            widget: string
+          - hint: 'Original text: xl, key: ef4'
+            label: Text
+            name: ef4
+            widget: string
+          - hint: 'Original text: 1x, key: 667'
+            label: Text
+            name: '667'
+            widget: string
+          - hint: 'Original text: 2x, key: 686'
+            label: Text
+            name: '686'
+            widget: string
+          - hint: 'Original text: 1, key: 31'
+            label: Text
+            name: '31'
+            widget: string
+          - hint: 'Original text: Join Waitlist , key: -61ac8c89'
+            label: Text
+            name: '-61ac8c89'
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. Duis
+              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+              commodo diam libero vitae erat. Aenean faucibus nibh et justo
+              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+              tristique posuere., key: -5286fc08
+            label: Text
+            name: '-5286fc08'
+            widget: text
+          - hint: 'Original text: Heading 1, key: 6af22973'
+            label: Text
+            name: 6af22973
+            widget: string
+          - hint: 'Original text: Heading 2, key: 6af22974'
+            label: Text
+            name: 6af22974
+            widget: string
+          - hint: 'Original text: Heading 3, key: 6af22975'
+            label: Text
+            name: 6af22975
+            widget: string
+          - hint: 'Original text: Heading 4, key: 6af22976'
+            label: Text
+            name: 6af22976
+            widget: string
+          - hint: 'Original text: Heading 5, key: 6af22977'
+            label: Text
+            name: 6af22977
+            widget: string
+          - hint: 'Original text: Heading 6, key: 6af22978'
+            label: Text
+            name: 6af22978
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur., key: 36f186d6
+            label: Text
+            name: 36f186d6
+            widget: text
+          - hint: 'Original text: Block quote, key: 40f76109'
+            label: Text
+            name: 40f76109
+            widget: string
+          - hint: 'Original text: Ordered list, key: 670f3891'
+            label: Text
+            name: 670f3891
+            widget: string
+          - hint: 'Original text: Item 1, key: -7cdc0d7c'
+            label: Text
+            name: '-7cdc0d7c'
+            widget: string
+          - hint: 'Original text: Item 2, key: -7cdc0d7b'
+            label: Text
+            name: '-7cdc0d7b'
+            widget: string
+          - hint: 'Original text: Item 3, key: -7cdc0d7a'
+            label: Text
+            name: '-7cdc0d7a'
+            widget: string
+          - hint: 'Original text: Unordered list, key: -27cb5e56'
+            label: Text
+            name: '-27cb5e56'
+            widget: string
+          - hint: 'Original text: Item A, key: -7cdc0d6c'
+            label: Text
+            name: '-7cdc0d6c'
+            widget: string
+          - hint: 'Original text: Item B, key: -7cdc0d6b'
+            label: Text
+            name: '-7cdc0d6b'
+            widget: string
+          - hint: 'Original text: Item C, key: -7cdc0d6a'
+            label: Text
+            name: '-7cdc0d6a'
+            widget: string
+          - hint: 'Original text: Text link, key: 361eaeed'
+            label: Text
+            name: 361eaeed
+            widget: string
+          - hint: 'Original text: Bold text, key: 4205e5c8'
+            label: Text
+            name: 4205e5c8
+            widget: string
+          - hint: 'Original text: Emphasis, key: 4abe799c'
+            label: Text
+            name: 4abe799c
+            widget: string
+          - hint: 'Original text: Superscript, key: 1dea1fe6'
+            label: Text
+            name: 1dea1fe6
+            widget: string
+          - hint: 'Original text: Subscript, key: -69de0115'
+            label: Text
+            name: '-69de0115'
+            widget: string
+          - hint: "Original text: **\_This item is sold out **, key: -78958a2d"
+            label: Text
+            name: '-78958a2d'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -4636,6 +4954,13 @@ collections:
           - hint: 'Original link: /reset-password/, key: -16d8c219'
             label: Link
             name: '-16d8c219'
+            widget: string
+          - hint: >-
+              Original link:
+              https://university.webflow.com/lesson/add-and-nest-text-links-in-webflow,
+              key: -1a691619
+            label: Link
+            name: '-1a691619'
             widget: string
       - label: Images
         name: images
@@ -4998,6 +5323,19 @@ collections:
                 required: false
           - label: Image
             name: 52ab76a8
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 317f733b
             widget: object
             fields:
               - name: url
@@ -5557,19 +5895,6 @@ collections:
                 required: false
           - label: Image
             name: 5fa6597d
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '0'
             widget: object
             fields:
               - name: url
